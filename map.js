@@ -548,9 +548,8 @@ $(".search-button").click(function(event) {
   if (lMap.hasLayer(Country_layer)) {
     
     lMap.removeLayer(Country_layer);
-	lMap.removeControl(legend);  
-
- 
+	lMap.addLayer(wdpa);
+	
   } else {
 
   }
