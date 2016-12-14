@@ -266,7 +266,7 @@ legend.addTo(lMap);
         format: 'image/png',
 		opacity:'0.5',
 		zIndex: 33 // Use zIndex to order the tileLayers within the tilePane. The higher number, the upper vertically.
-      }).addTo(lMap);
+      })//.addTo(lMap);
  
 
 //---------------------------------------------------------------
@@ -301,7 +301,8 @@ legend4.onAdd = function (lMap) {
     div.innerHTML = labels.join('');
     return div;
 };
- legend4.addTo(lMap);
+	  
+ //legend4.addTo(lMap);
 
  /* 
 //---------------------------------------------------------------
