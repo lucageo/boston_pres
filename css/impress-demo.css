@@ -207,32 +207,28 @@ a:focus {
     They cover everything what you see on first three steps of the demo.
 */
 .slide {
-    display: block;
-
-    width: 900px;
-    height: 700px;
-    padding: 40px 60px;
-
-    background-color: white;
-    border: 1px solid rgba(0, 0, 0, .3);
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
-
-    color: rgb(102, 102, 102);
-    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 30px;
-    line-height: 36px;
-    letter-spacing: -1px;
+  display: block;
+  min-width: 900px;
+  min-height: 700px;
+  padding: 40px 60px;
+  background-color: white;
+  /* border: 1px solid rgba(0, 0, 0, .3); */
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  color: rgb(86, 86, 86);
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -1px;
 }
 
 .slide q {
     display: block;
-    font-size: 50px;
+    font-size: 29px;
     line-height: 72px;
-
-    margin-top: 23px;
+    margin-top: -7px;
+    font-weight: bold;
 }
 
 .slide q strong {
@@ -316,7 +312,7 @@ a:focus {
 /*
     This step has some animated text ...
 */
-#ing { width: 500px }
+#ing { font-size: 50px; }
 
 /*
     ... so we define display to `inline-block` to enable transforms and
@@ -710,4 +706,52 @@ body > div.hint > p{
 body > div.hint > img{
 
       width: 100px;
+}
+
+#step-2 > ul > li{
+    margin-left: 35px;
+    margin-bottom:10px;
+    margin-top:15px;
+    font-size: 19px;
+}
+#step-4 > ul > li{
+  margin-left: 35px;
+  margin-bottom:10px;
+  margin-top:15px;
+  font-size: 19px;
+
+}
+#step-5 > ul > li{
+  margin-left: 35px;
+  margin-bottom:10px;
+  margin-top:15px;
+    font-size: 22px;
+
+}
+#bored > q{
+
+  font-size: 53px;
+font-weight: 100;
+text-align: center;
+}
+
+
+#bored{
+
+      width: 1165px!important;
+}
+
+#step-2 > img{
+
+  float: right;
+}
+
+#ing{
+
+      transform: translate(100%, 100%) translate3d(-608px, -4911px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(270deg) scale(4)!important;
+}
+
+#step-5 > img{
+
+  float: right;
 }
