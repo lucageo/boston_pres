@@ -273,8 +273,9 @@ a:focus {
     transform:         translateZ(50px);
 }
 
-#title .footnote {
-    font-size: 32px;
+.footnote {
+    font-size: 24px;
+    FONT-WEIGHT: 100;
 }
 
 /*
@@ -748,10 +749,54 @@ text-align: center;
 
 #ing{
 
-      transform: translate(100%, 100%) translate3d(-608px, -4911px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(270deg) scale(4)!important;
+  transform: translate(100%, 100%) translate3d(-1477px, -4911px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(270deg) scale(4)!important;
+
 }
 
 #step-5 > img{
 
   float: right;
+}
+
+
+#step-8 > img{
+
+  height: 700px;
+  box-shadow: 0 1px 13px rgba(62, 62, 62, 0), 0 1px 7px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border: 2px dashed #bbbbbb;
+  padding: 20px;
+  background: white;
+
+}
+#step-8{
+    transform: translate(-150%, -37%) translate3d(14000px, 1500px, -1400px) rotateX(10deg) rotateY(0deg) rotateZ(0deg) scale(4)!important;
+
+}
+
+#step-7 > img{
+  height: 700px;
+  box-shadow: 0 1px 13px rgba(62, 62, 62, 0), 0 1px 7px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border: 2px dashed #bbbbbb;
+  padding: 20px;
+  background: white;
+
+}
+#step-7{
+
+    transform: translate(-150%, -37%) translate3d(7500px, 1500px, -1400px) rotateX(10deg) rotateY(0deg) rotateZ(0deg) scale(4)!important;
+}
+#title > img{
+
+  height: 700px;
+  box-shadow: 0 1px 13px rgba(62, 62, 62, 0), 0 1px 7px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border: 2px dashed #bbbbbb;
+  padding: 20px;
+  background: white;
+}
+#title{
+
+    transform: translate(-150%, -37%) translate3d(0px, 1500px, -1119px) rotateX(10deg) rotateY(0deg) rotateZ(0deg) scale(4)!important;
 }
